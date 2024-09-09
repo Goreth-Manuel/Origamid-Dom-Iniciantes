@@ -75,7 +75,15 @@ ul li {
 	letter-spacing: .1rem;
 	margin-bottom: 1rem;
 	color: #E54;
+}
 
+.animais h2::before {
+	content: '';
+	display: inline-block;
+	width: 40px;
+	height: 10px;
+	margin-right: 10px;
+	background-color: #FB5;
 }
 
 .animais p {
@@ -83,10 +91,8 @@ ul li {
 	line-height: 1.2;
 	margin-bottom: 1rem;
 }
-.animais-lista {
-	grid-column: 2 / 3;
-}
 
-.animais-descricao {
+
+/* .animais-descricao {
 	grid-column: 2 / 4;
-}
+} */
