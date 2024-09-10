@@ -13,25 +13,24 @@ body {
 
 img {
 	display: block;
-	max-width: 100px;
+	max-width: 100%;
 }
-header {
+
+.menu  {
 	background-color: #FB5;
 	grid-column: 3 / 5;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
 
-/* .menu {
-} */
-
-header ul {
+.menu  ul {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 10px;
 }
 
-header li a {
+
+.menu li a {
 	color: #222;
 	display: block;
 	padding: 10px;
@@ -50,7 +49,7 @@ ul li {
 
 .grid-section {
 	grid-column: 2 / 4;
-	width: 100px;
+	width: 100%;
 	padding: 10px;
 	box-sizing: border-box;
 	display: grid;
@@ -90,6 +89,26 @@ ul li {
 	font-family: Helvetica, Arial;
 	line-height: 1.2;
 	margin-bottom: 1rem;
+}
+
+.animais-lista {
+	height: 370px;
+	overflow-y: scroll;
+	grid-column: 2;
+}
+
+.animais-lista::-webkit-scrollbar {
+	width: 18px;
+}
+
+.animais-lista::-webkit-scrollbar-thumb {
+    background: #FB5;
+    border-left: 4px solid #faf6ed;
+    border-right: 4px solid #faf6ed;
+}
+
+.animais-lista::-webkit-scrollbar-track {
+    background: #faf6ed;
 }
 
 
