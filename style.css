@@ -240,7 +240,7 @@ ul li {
     }
 }
 
-/* .js .js-accordion dd {
+ .js .js-accordion dd {
     display: none;
 }
 
@@ -269,6 +269,8 @@ ul li {
         max-height: 100px;
     }
 }
+
+/*
 
 .js .js-scroll {
     opacity: 0;
