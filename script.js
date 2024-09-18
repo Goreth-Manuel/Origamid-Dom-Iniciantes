@@ -23,11 +23,12 @@ function initTabNav() {
 }
 initTabNav()
 
-const accordionList = document.querySelector('.js-accordion dt');
+const accordionList = document.querySelectorAll('.js-accordion dt');
+accordionList[0].classList.add('ativo');
 
-function activeAccordion(){
-    this.classList.add('activo');
-    this.nextElementSibling.classList.add('activo');
+function activeAccordion() {
+    this.classList.toggle('ativo');
+    this.nextElementSibling.classList.toggle('ativo');
 }
 
 accordionList.forEach((item) => {
