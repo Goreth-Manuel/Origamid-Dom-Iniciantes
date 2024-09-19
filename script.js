@@ -42,4 +42,10 @@ function initAccordion() {
         })
     }
 }
-initAccordion()
+initAccordion();
+
+const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
+
+linksInternos.forEach((item) => {
+    item.addEventListener('click', scrollToSection);
+} )
