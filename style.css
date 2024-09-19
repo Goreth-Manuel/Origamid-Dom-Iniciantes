@@ -97,6 +97,10 @@ ul li {
 	grid-column: 2;
 }
 
+.animais-lista li {
+    cursor: pointer;
+}
+
 .animais-lista::-webkit-scrollbar {
 	width: 18px;
 }
@@ -222,7 +226,7 @@ ul li {
 
 .js-tabcontent section.ativo {
     display: block !important;
-    animation:show .5s forwards
+    animation: show .5s forwards
 }
 
 @keyframes show {
@@ -236,7 +240,7 @@ ul li {
     }
 }
 
-.js .js-accordion dd {
+ .js .js-accordion dd {
     display: none;
 }
 
@@ -266,6 +270,8 @@ ul li {
     }
 }
 
+/*
+
 .js .js-scroll {
     opacity: 0;
     transform: translate3d(-30px, 0, 0);
@@ -275,4 +281,4 @@ ul li {
     opacity: 1;
     transform: translate3d(0, 0, 0);
     transition: .3s;
-}
+} */
